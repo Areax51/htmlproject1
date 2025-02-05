@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <header class="header">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#work">Work</a></li>
+          <li class="nav-item"><a href="#resume">Resume</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <section id="home">
+    <section id="home" class="section home">
       <h1>Welcome to My Portfolio</h1>
     </section>
 
-    <section id="about">
+    <section id="about" class="section about">
       <h2>About Me</h2>
       <p>This is a short bio about me.</p>
     </section>
 
-    <section id="work">
+    <section id="work" class="section work">
       <h2>Work</h2>
       <ul>
         <li>Project 1</li>
@@ -37,9 +38,9 @@
       </ul>
     </section>
 
-    <section id="resume">
+    <section id="resume" class="section resume">
       <h2>Resume</h2>
-      <table border="1">
+      <table class="resume-table">
         <tr>
           <th>Year</th>
           <th>Experience</th>
@@ -55,9 +56,9 @@
       </table>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section contact">
       <h2>Contact</h2>
-      <form>
+      <form class="contact-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
 
@@ -71,19 +72,19 @@
       </form>
     </section>
 
-    <section>
+    <section class="section media">
       <h2>Media</h2>
-      <video controls>
+      <video controls class="media-video">
         <source src="video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <audio controls>
+      <audio controls class="media-audio">
         <source src="audio.mp3" type="audio/mpeg" />
         Your browser does not support the audio tag.
       </audio>
     </section>
 
-    <footer>
+    <footer class="footer">
       <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
   </body>

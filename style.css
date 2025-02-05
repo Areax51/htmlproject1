@@ -1,0 +1,142 @@
+/* Import Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background: #222;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-item a:hover {
+    color: #00c3ff;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Home */
+  .home {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home h1 {
+    font-size: 3em;
+  }
+  
+  /* About */
+  .about {
+    background: #ffffff;
+  }
+  
+  /* Work */
+  .work {
+    background: #f0f0f0;
+  }
+  
+  .work ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .work li {
+    background: #00c3ff;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  /* Resume */
+  .resume-table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  .resume-table th, .resume-table td {
+    border: 1px solid #333;
+    padding: 10px;
+  }
+  
+  /* Contact */
+  .contact-form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: #00c3ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #007bbd;
+  }
+  
+  /* Media */
+  .media {
+    background: #ffffff;
+  }
+  
+  .media-video, .media-audio {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+  
